@@ -38,8 +38,8 @@ export const projects = [
     title: 'Portfolio',
     description: 'My personal portfolio website, built with HTML, CSS and React. It presents my projects and skills, and doubles as a project itself.',
     tools: [' HTML,', ' CSS,', ' JavaScript,', ' React.'],
-    liveUrl: 'https://...',
-    githubUrl: 'https://github.com/...',
+    liveUrl: 'https://zahraamalik06.github.io/my-portfolio/',
+    githubUrl: 'https://github.com/zahraamalik06/my-portfolio.git',
     image: PortfolioMockup,
     preview: PortfolioMockup,
   }

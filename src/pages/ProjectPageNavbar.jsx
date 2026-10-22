@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 export default function ProjectPageNavbar() {
   return (
     <header className="ProjectPageNavbar">
-      <a href='/' className="BackToHomePage">&lt;-- Back</a>
+      <Link to="/#projects" className="BackToHomePage">&lt;-- Back</Link>
       <nav>
-        <a href="#ProjectPageHero">Hero</a>
-        <a href="#ProjectPageInfo">About Project</a>
-        <a href="#Contacts">Contact</a>
+        <Link to="/#ProjectPageHero">Hero</Link>
+        <Link to="#/ProjectPageInfo">About Project</Link>
+        <Link href="/#Contacts">Contact</Link>
       </nav>
     </header>
   );

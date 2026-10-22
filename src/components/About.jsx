@@ -10,9 +10,9 @@ export default function About(){
 
             <p>I’m an aspiring <b>front-end developer</b> interested in creating digital experiences that bring design and functionality together.</p>
 
-           <p> I enjoy experimenting with layouts, building interactive features, and learning how ideas move from a design into a working website.</p>
+           <p> I enjoy experimenting with layouts, building interactive features, and learning how ideas move from a design into a working website.  Currently learning, building, and looking for opportunities to grow through real-world projects.</p>
 
-            <p>Currently learning, building, and looking for opportunities to grow through real-world projects.</p>
+         <p></p>
         </div>
     );
 }

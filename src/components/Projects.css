@@ -1,0 +1,75 @@
+.Projects {
+  background: url('../assets/Project_BG.svg') no-repeat center / cover;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-content: center;
+  row-gap: 3rem;
+  padding: 0 10%;
+}
+
+.Projects h1 {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: clamp(2rem, 10.4vw, 9.4rem);
+}
+
+.Projects section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Projects section p {
+  padding: 20px 0 0;
+  text-align: center;
+  font-size: clamp(0.65rem, 1.6vw, 1.15rem);
+}
+
+#bytebite img, #lightsoul img { height: clamp(45px, 14vw, 200px); }
+#multistep-form img          { height: clamp(40px, 13vw, 190px); width: auto; }
+#portfolio_ img              { height: clamp(40px, 13vw, 190px); width: auto; }
+
+/* hover preview */
+.Projects .preview {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  width: 280px;
+  height: auto;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  z-index: 5;
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.35));
+}
+
+.Projects section:hover .preview {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.Projects #note {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 30px;
+  color: var(--burgundy);
+  font-family: 'Island Moments', cursive;
+  margin-top: 1rem;
+}
+
+@media (max-width: 900px) {
+  .Projects {
+    aspect-ratio: 1440 / 900;
+    min-height: auto;
+    row-gap: 0;
+  }
+  .Projects #note { display: none; }
+}
+
+@media (hover: none) {
+  .Projects .preview { display: none; }
+}

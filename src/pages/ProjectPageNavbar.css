@@ -1,0 +1,49 @@
+
+.ProjectPageNavbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 6%;
+  z-index: 10;
+  font-family: 'Island Moments', cursive;
+}
+
+.BackToHomePage { font-size: 3rem; }
+
+.ProjectPageNavbar nav { display: flex; gap: 2rem; }
+.ProjectPageNavbar nav a { font-size: 2.5rem; }
+.ProjectPageNavbar nav a:nth-child(odd) { color: var(--burgundy); }
+
+@media(min-width: 400px) and (max-width: 700px) {
+  .ProjectPageNavbar {
+    flex-direction: row;
+    gap: 0.5rem;
+    padding: 1rem 5%;
+  }
+  .BackToHomePage { font-size: 2rem; }
+  .ProjectPageNavbar nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+    .ProjectPageNavbar nav a { font-size: 1.2rem; }
+}
+
+@media(min-width: 700px) and (max-width: 900px) {
+  .ProjectPageNavbar {
+    flex-direction: row;
+    gap: 0.5rem;
+    padding: 1rem 5%;
+  }
+  .BackToHomePage { font-size: 3.5rem; }
+  .ProjectPageNavbar nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+    .ProjectPageNavbar nav a { font-size: 2.2rem; }
+}

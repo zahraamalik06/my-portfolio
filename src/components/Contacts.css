@@ -1,0 +1,64 @@
+.Contacts{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    min-height: 40vh;
+    align-items: center;
+}
+
+.Contacts #Contacts {
+    align-items: center;
+    margin: 20px 40px;
+}
+
+.Contacts #Contacts h1 {
+    font-size: 150px;
+}
+
+.Contacts #Contacts h3{
+    color: var(--burgundy);
+    font-size: 50px;
+}
+
+.Contacts #Contacts p {
+    font-size: 20px;
+}
+
+@media (min-width: 400px) and (max-width: 700px) {
+  .Contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0rem 6%;
+  }
+  .Contacts img {
+    position: static;         
+    width: min(100px, 25vw);
+  }
+  .Contacts #Contacts h1{
+    font-size: 30px;
+  }
+  .Contacts #Contacts h3{
+    font-size: 20px;
+  }
+  .Contacts #Contacts p{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+  .Contacts img {
+    position: static;          
+    width: min(200px, 50vw);
+  }
+  .Contacts #Contacts h1{
+    font-size: 50px;
+  }
+  .Contacts #Contacts h3{
+    font-size: 40px;
+  }
+  .Contacts #Contacts p{
+    font-size: 22px;
+  }
+}

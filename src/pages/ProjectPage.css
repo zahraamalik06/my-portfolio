@@ -6,7 +6,7 @@
 }
 
 .ProjectPage #ProjectPageHero {
-  background: url('../assets/Projects_hero_BG.svg') no-repeat center / cover;
+  background: url('../assets/Projects_hero_BG.png') no-repeat center / cover;
   min-height: 105vh;
   align-content: end;
 }
@@ -19,7 +19,7 @@
 }
 
 .ProjectPage #ProjectPageInfo {
-  background: url('../assets/ProjectInfo_BG.svg') no-repeat center / cover;
+  background: url('../assets/ProjectInfo_BG.png') no-repeat center / cover;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;

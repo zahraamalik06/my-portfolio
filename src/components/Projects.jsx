@@ -2,10 +2,10 @@ import './Projects.css';
 import { Link } from 'react-router-dom';
 import { projects } from '../data/projects';
 const getPreview = (id) => projects.find(p => p.id === id)?.preview;
-import folderOne from '../assets/Folder1.svg';
-import folderTwo from '../assets/Folder2.svg';
-import folderThree from '../assets/Folder3.svg';
-import folderFour from '../assets/Folder4.svg';
+import folderOne from '../assets/Folder1.png';
+import folderTwo from '../assets/Folder2.png';
+import folderThree from '../assets/Folder3.png';
+import folderFour from '../assets/Folder4.png';
 
 export default function Projects(){
   return(

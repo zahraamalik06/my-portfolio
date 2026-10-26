@@ -1,5 +1,5 @@
 .Projects {
-  background: url('../assets/Project_BG.svg') no-repeat center / cover;
+  background: url('../assets/Project_BG.png') no-repeat center / cover;
   min-height: 100vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);

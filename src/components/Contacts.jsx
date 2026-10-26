@@ -1,6 +1,6 @@
 import './Contacts.css';
 
-import LiliesImg from '../assets/Flower.svg';
+import LiliesImg from '../assets/Flower.png';
 
 export default function Contacts (){
     return (

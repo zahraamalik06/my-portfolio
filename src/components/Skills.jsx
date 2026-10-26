@@ -1,16 +1,16 @@
 import './Skills.css';
 
-import GitImg from '../assets/Git.svg';
-import NpmImg from '../assets/NPM.svg';
-import HtmlImg from '../assets/HTML5.svg';
-import CssImg from '../assets/CSS.svg';
-import JavascriptImg from '../assets/JavaScript.svg';
-import ReactImg from '../assets/React.svg';
-import ResponsiveDesignImg from '../assets/Responsive_Design.svg';
-import FigmaImg from '../assets/Figma.svg';
-import PhotoshopImg from '../assets/PhotoShop.svg';
-import VScodeImg from '../assets/VSCode.svg';
-import GithubImg from '../assets/GitHub.svg';
+import GitImg from '../assets/Git.png';
+import NpmImg from '../assets/NPM.png';
+import HtmlImg from '../assets/HTML5.png';
+import CssImg from '../assets/CSS.png';
+import JavascriptImg from '../assets/JavaScript.png';
+import ReactImg from '../assets/React.png';
+import ResponsiveDesignImg from '../assets/Responsive_Design.png';
+import FigmaImg from '../assets/Figma.png';
+import PhotoshopImg from '../assets/PhotoShop.png';
+import VScodeImg from '../assets/VSCode.png';
+import GithubImg from '../assets/GitHub.png';
 
 
 export default function Skills(){

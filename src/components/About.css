@@ -1,5 +1,5 @@
 .About {
-  background: url('../assets/About_BG.svg') no-repeat center / cover;
+  background: url('../assets/About_BG.png') no-repeat center / cover;
   position: relative;
   display: flex;
   flex-direction: column;

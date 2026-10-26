@@ -6,7 +6,7 @@
 }
 
 .Skills section {
-  background: url('../assets/Skills&Tools.png') no-repeat center / cover;
+  background: url('../assets/Skills&Tools_BG.png') no-repeat center / cover;
   min-height: 100vh;
   display: flex;
   justify-content: center;

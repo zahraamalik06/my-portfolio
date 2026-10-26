@@ -1,5 +1,6 @@
 
 import './ProjectPageNavbar.css';
+import './ProjectPage.jsx'
 import { Link } from 'react-router-dom';
 
 export default function ProjectPageNavbar() {
@@ -9,7 +10,7 @@ export default function ProjectPageNavbar() {
       <nav>
         <Link to="/#ProjectPageHero">Hero</Link>
         <Link to="#/ProjectPageInfo">About Project</Link>
-        <Link href="/#Contacts">Contact</Link>
+        <Link to="/#Contacts_pp">Contact</Link>
       </nav>
     </header>
   );

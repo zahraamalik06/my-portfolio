@@ -4,6 +4,9 @@
   --burgundy: #8b2c35;
 }
 
+:root { color-scheme: light only; }
+html, body { background: #fff; }
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 

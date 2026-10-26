@@ -8,9 +8,9 @@ export default function ProjectPageNavbar() {
     <header className="ProjectPageNavbar">
       <Link to="/#projects" className="BackToHomePage">&lt;-- Back</Link>
       <nav>
-        <Link to="/#ProjectPageHero">Hero</Link>
-        <Link to="#/ProjectPageInfo">About Project</Link>
-        <Link to="/#Contacts_pp">Contact</Link>
+        <Link to="#ProjectPageHero">Hero</Link>
+        <Link to="#ProjectPageInfo">About Project</Link>
+        <Link to="#Contacts_pp">Contact</Link>
       </nav>
     </header>
   );
